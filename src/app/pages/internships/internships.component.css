@@ -1,0 +1,15 @@
+.intern-section .section_details{
+ min-height:200px ;
+ margin: auto 0 ;
+ 
+}
+.intern-section .section_details div{
+    cursor:pointer
+}
+.intern-section .section_details div img{
+    width:70% ;
+    height:50% ;
+}
+.intern-section .section_details div  p:nth-last-of-type(2){
+    background-color: rgb(205, 164, 243);
+}

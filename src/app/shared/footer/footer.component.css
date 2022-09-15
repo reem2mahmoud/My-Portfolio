@@ -1,0 +1,21 @@
+footer{
+    width:100% ;
+    min-height: 50px;
+    margin-top:20px
+}
+footer .icons , 
+footer .copy_right{
+    width:50% ;
+    height: 50px;
+    margin:auto ;
+    text-align: center;  
+    padding-top:20px 
+}
+footer .icons a{
+    text-decoration: none !important;
+}
+footer .icons i{
+    font-size:38px ;
+    margin:15px ;
+    color: black;
+}

@@ -1,0 +1,13 @@
+header{
+    min-height: 50px;
+    background-color: white;
+}
+header  ul{
+    min-height: 50px;
+   }
+header li a{
+    color:black ;
+}
+header li a strong{
+    color:blueviolet
+}
