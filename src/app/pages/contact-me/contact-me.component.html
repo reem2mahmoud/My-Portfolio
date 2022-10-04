@@ -1,1 +1,67 @@
-<p>contact-me works!</p>
+<div class="contact-section">
+  <h1 class="section-title">Contact</h1>
+  <div class="section_details row shadow p-5">
+    <form [formGroup]="contactForm" class="col-md-6 col-12">
+      <div class="row">
+        <div class="col-md-6 col-12">
+          <input
+            id="name"
+            class="form-control"
+            type="text"
+            formControlName="userName"
+            placeholder="UserName"
+          />
+        </div>
+
+        <div class="col-md-6 col-12">
+          <input
+            id="email"
+            type="email"
+            class="form-control"
+            formControlName="email"
+            placeholder="Email"
+          />
+        </div>
+      </div>
+      <div class="col-12 my-3">
+        <input
+          type="text"
+          placeholder="Subject"
+          class="form-control"
+          formControlName="subject"
+        />
+      </div>
+      <div class="col-12 my-3">
+        <textarea
+          id="message"
+          formControlName="message"
+          class="form-control"
+          rows="7"
+          placeholder="Message"
+        ></textarea>
+      </div>
+
+      <div class="buttons my-3">
+        <button type="button" class="btn btn-outline-primary">
+          Contact Me
+        </button>
+      </div>
+    </form>
+    <div class="col-md-6 col-12">
+      <div class="mapouter">
+        <div class="gmap_canvas">
+          <iframe
+            width="600"
+            height="290"
+            id="gmap_canvas"
+            src="https://maps.google.com/maps?q=ismailia&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            frameborder="0"
+            scrolling="no"
+            marginheight="0"
+            marginwidth="0">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

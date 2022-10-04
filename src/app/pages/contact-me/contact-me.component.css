@@ -1,0 +1,13 @@
+form #message{
+    resize: none;
+}
+form .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+   
+}
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;}
