@@ -1,0 +1,30 @@
+.projects-section{
+    min-height : 300px ;
+   
+}
+.section_details{
+    position: relative;
+}
+.section_details .project_details{
+    padding:0 ;
+    height: 150px ;
+    position: absolute;
+}
+.section_details .project_details img {
+    width:100% ;
+    height: 100%;
+    
+}
+.section_details .overlay_section{
+    height: 70px ;
+    background-color: black ;
+    opacity: 0.4;
+    position: absolute ;
+    margin-top: 90px ;
+    
+}
+.section_details .overlay_section #project_name{
+    color:white ;
+    text-align: center ;
+;
+}
